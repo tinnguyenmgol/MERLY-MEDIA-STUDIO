@@ -1,0 +1,17 @@
+{
+  "name": "Chuong trinh sale",
+  "prefix": "sale-campaign",
+  "brandColor": "#e11d48",
+  "accentColor": "#fde047",
+  "footer": "SALE DANG CHAY - NHAN MERLY DE CHOT DEAL NHA!",
+  "scenes": [
+    { "badge": 1, "headline": "SALE\nHOM NAY", "subline": "GIA TOT KHO BO LO", "sticker": "megaphone", "top": 255 },
+    { "badge": 2, "headline": "DEAL SOC\nDANG CO", "subline": "SO LUONG CO HAN", "sticker": "spark", "top": 250 },
+    { "badge": 3, "headline": "MUA NHANH\nKEO HET", "subline": "SIZE DEP DI RAT NHANH", "sticker": "clock", "top": 250 },
+    { "badge": 4, "headline": "GIAM GIA\nCUC XIN", "subline": "AP DUNG TRONG LIVE", "sticker": "heart", "top": 250 },
+    { "badge": 5, "headline": "CHOT DON\nNGAY", "subline": "INBOX MERLY GIU SIZE", "sticker": "chat", "top": 250 },
+    { "badge": 6, "headline": "COMBO\nTIET KIEM", "subline": "MUA NHIEU LOI HON", "sticker": "spark", "top": 250 },
+    { "badge": 7, "headline": "SALE CUOI\nNGAY", "subline": "DUNG DE LO DEAL", "sticker": "clock", "top": 250 },
+    { "badge": 8, "headline": "FOLLOW MERLY", "subline": "DE SAN SALE MOI NGAY", "sticker": "person", "top": 255 }
+  ]
+}
