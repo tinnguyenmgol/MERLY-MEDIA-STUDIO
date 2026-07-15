@@ -1,0 +1,17 @@
+{
+  "name": "Hang moi ve",
+  "prefix": "hang-moi-ve",
+  "brandColor": "#0f766e",
+  "accentColor": "#facc15",
+  "footer": "HANG MOI VUA VE - CA NHA VAO XEM MAU NHA!",
+  "scenes": [
+    { "badge": 1, "headline": "HANG MOI\nVUA VE", "subline": "MAU XINH LEN KE", "sticker": "spark", "top": 255 },
+    { "badge": 2, "headline": "LOAT MAU\nMOI TINH", "subline": "FORM DEP DE PHOI", "sticker": "hearts", "top": 250 },
+    { "badge": 3, "headline": "MAU MOI\nRAT EM", "subline": "DI LA THICH LIEN", "sticker": "heart", "top": 250 },
+    { "badge": 4, "headline": "CO NHIEU\nSIZE", "subline": "NHAN MERLY CHECK NHA", "sticker": "chat", "top": 250 },
+    { "badge": 5, "headline": "HANG VE\nKHONG NHIEU", "subline": "CHON SOM CON SIZE DEP", "sticker": "clock", "top": 250 },
+    { "badge": 6, "headline": "FORM MOI\nDE MANG", "subline": "DI LA TON DANG", "sticker": "spark", "top": 250 },
+    { "badge": 7, "headline": "MAU HOT\nVUA LEN", "subline": "AI THICH THI CHOT SOM", "sticker": "megaphone", "top": 250 },
+    { "badge": 8, "headline": "FOLLOW MERLY", "subline": "DE XEM HANG MOI MOI NGAY", "sticker": "person", "top": 255 }
+  ]
+}
