@@ -1,0 +1,16 @@
+{
+  "name": "Mau teaser live ban giay",
+  "brandColor": "#d54f83",
+  "accentColor": "#f5d75b",
+  "footer": "HEN CA NHA TRONG LIVE TOI NAY NHA!",
+  "scenes": [
+    { "badge": 1, "headline": "LIVE\nTOI NAY", "subline": "CO MAU XINH QUA", "sticker": "heart", "top": 265 },
+    { "badge": 2, "headline": "LOAT MAU MOI\nVUA VE", "subline": "", "sticker": "hearts", "top": 250 },
+    { "badge": 3, "headline": "FORM TON CHAN", "subline": "DE MANG - SANG", "sticker": "spark", "top": 285 },
+    { "badge": 4, "headline": "CO CA SIZE\n35-43", "subline": "", "sticker": "megaphone", "top": 255 },
+    { "badge": 5, "headline": "CHI EM CHAN\n40-43", "subline": "NHO VAO SOM", "sticker": "spark", "top": 250 },
+    { "badge": 6, "headline": "MAU DEP", "subline": "THUONG HET SIZE\nRAT NHANH", "sticker": "clock", "top": 235 },
+    { "badge": 7, "headline": "COMMENT\n\"LIVE\"", "subline": "DE MERLY\nNHAC LICH", "sticker": "chat", "top": 235 },
+    { "badge": 8, "headline": "FOLLOW MERLY", "subline": "DE VAO LIVE\nSAN DEAL NHA!", "sticker": "person", "top": 255 }
+  ]
+}
