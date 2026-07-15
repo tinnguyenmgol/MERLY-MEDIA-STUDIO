@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MERLY MEDIA STUDIO</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="panel controls">
+        <div>
+          <p class="eyebrow">MERLY MEDIA STUDIO</p>
+          <h1>Chèn template vào clip tự động</h1>
+        </div>
+
+        <label class="upload">
+          <input id="videoInput" type="file" accept="video/*" multiple />
+          <span>Chọn nhiều clip dọc 9:16</span>
+        </label>
+
+        <div class="summary">
+          <strong id="queueCount">0 clip</strong>
+          <span>8 frame được chia đều theo thời lượng từng clip.</span>
+        </div>
+
+        <section class="auth-panel">
+          <div class="auth-head">
+            <strong>Tài khoản đăng bài</strong>
+            <span id="authSummary">Chưa kiểm tra</span>
+          </div>
+          <div class="auth-actions">
+            <a class="auth-link" href="/auth/tiktok">Đăng nhập TikTok</a>
+            <a class="auth-link" href="/auth/facebook">Đăng nhập Facebook</a>
+            <a class="auth-link" href="/auth/youtube">Đăng nhập YouTube</a>
+          </div>
+        </section>
+
+        <div class="field">
+          <label for="overlayPreset">Bộ overlay</label>
+          <select id="overlayPreset"></select>
+        </div>
+
+        <div class="grid two">
+          <label class="upload compact">
+            <input id="templateInput" type="file" accept="application/json,.json" />
+            <span>Upload template JSON</span>
+          </label>
+          <button id="exportTemplateBtn" type="button">Tải template</button>
+        </div>
+
+        <details class="editor">
+          <summary>Chỉnh nội dung 8 frame</summary>
+          <div id="sceneEditor" class="scene-editor"></div>
+        </details>
+
+        <div class="grid two">
+          <div class="field">
+            <label for="prefixInput">Tên file xuất</label>
+            <input id="prefixInput" type="text" value="live-teaser" />
+          </div>
+          <div class="field">
+            <label for="footerInput">Thanh dưới</label>
+            <input id="footerInput" type="text" />
+          </div>
+        </div>
+
+        <div class="grid two">
+          <label class="upload compact">
+            <input id="audioInput" type="file" accept="audio/*" />
+            <span>Thêm audio riêng</span>
+          </label>
+          <div class="field">
+            <label for="audioMode">Âm thanh khi xuất</label>
+            <select id="audioMode">
+              <option value="original">Giữ âm gốc</option>
+              <option value="mix">Trộn âm gốc + audio riêng</option>
+              <option value="replace">Thay bằng audio riêng</option>
+              <option value="mute">Tắt tiếng</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="grid two">
+          <div class="field">
+            <label for="originalVolume">Âm gốc</label>
+            <input id="originalVolume" type="range" min="0" max="100" value="100" />
+          </div>
+          <div class="field">
+            <label for="customVolume">Audio riêng</label>
+            <input id="customVolume" type="range" min="0" max="100" value="80" />
+          </div>
+        </div>
+
+        <div class="grid two">
+          <div class="field">
+            <label for="brandColor">Màu hồng</label>
+            <input id="brandColor" type="color" value="#d54f83" />
+          </div>
+          <div class="field">
+            <label for="accentColor">Màu nhấn</label>
+            <input id="accentColor" type="color" value="#f5d75b" />
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="qualityPreset">Dung lượng / chất lượng</label>
+          <select id="qualityPreset">
+            <option value="balanced" selected>Cân bằng 720p - rõ nét, file vừa</option>
+            <option value="compact">Siêu nhẹ 720p - file nhỏ hơn</option>
+            <option value="sharp">Nét 1080p - file lớn hơn</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="captionInput">Caption đăng bài</label>
+          <textarea id="captionInput" class="compact-textarea">Live hôm nay nhiều mẫu xinh, cả nhà vào xem nha! #merlyshoes #livestream #sale</textarea>
+        </div>
+
+        <div class="actions">
+          <button id="recordBtn" type="button" disabled>Xuất hàng loạt MP4</button>
+          <button id="previewBtn" type="button" disabled>Xem clip đầu</button>
+        </div>
+
+        <div class="results" id="results" hidden></div>
+
+        <p class="note">
+          Bản này gửi clip lên server Node.js để FFmpeg xuất MP4 H.264/AAC.
+          <a href="/terms">Terms</a> · <a href="/privacy">Privacy</a>
+        </p>
+      </section>
+
+      <section class="stage">
+        <div class="phone">
+          <canvas id="canvas" width="1080" height="1920"></canvas>
+          <video id="sourceVideo" playsinline muted loop hidden></video>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
