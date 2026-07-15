@@ -1,0 +1,17 @@
+{
+  "name": "Facebook live 11h30",
+  "prefix": "fb-live-trua",
+  "brandColor": "#1877f2",
+  "accentColor": "#ffcf4a",
+  "footer": "11H30 TRUA NAY LEN LIVE SAN DEAL CUNG MERLY!",
+  "scenes": [
+    { "badge": 1, "headline": "LIVE FB\n11H30", "subline": "CA NHA NHO VAO SOM", "sticker": "clock", "top": 255 },
+    { "badge": 2, "headline": "MAU XINH\nLEN SONG", "subline": "FORM DE MANG", "sticker": "spark", "top": 250 },
+    { "badge": 3, "headline": "GIA LIVE\nTOT HON", "subline": "CHI CO TRONG BUOI TRUA", "sticker": "megaphone", "top": 245 },
+    { "badge": 4, "headline": "CHOT NHANH\nKEO HET", "subline": "SIZE DEP DI RAT NHANH", "sticker": "clock", "top": 250 },
+    { "badge": 5, "headline": "COMMENT\n\"TRUA\"", "subline": "DE MERLY NHAC LICH", "sticker": "chat", "top": 250 },
+    { "badge": 6, "headline": "FREESHIP\nDON LIVE", "subline": "SAN UU DAI LIEN TAY", "sticker": "spark", "top": 250 },
+    { "badge": 7, "headline": "11H30 VAO\nFACEBOOK", "subline": "MERLY CHO CA NHA", "sticker": "heart", "top": 250 },
+    { "badge": 8, "headline": "FOLLOW PAGE", "subline": "DE KHONG LO DEAL TRUA", "sticker": "person", "top": 255 }
+  ]
+}
