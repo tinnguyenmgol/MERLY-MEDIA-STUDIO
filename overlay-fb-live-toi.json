@@ -1,0 +1,17 @@
+{
+  "name": "Facebook live 19h30",
+  "prefix": "fb-live-toi",
+  "brandColor": "#7c3aed",
+  "accentColor": "#f59e0b",
+  "footer": "19H30 TOI NAY LIVE FACEBOOK - CA NHA NHO VAO NHA!",
+  "scenes": [
+    { "badge": 1, "headline": "LIVE FB\n19H30", "subline": "DEAL XIN CHO CA NHA", "sticker": "heart", "top": 255 },
+    { "badge": 2, "headline": "TOI NAY\nLEN MAU", "subline": "NHIEU FORM DE MANG", "sticker": "spark", "top": 250 },
+    { "badge": 3, "headline": "SAN DEAL\nBUOI TOI", "subline": "GIA CHI CO TRONG LIVE", "sticker": "megaphone", "top": 250 },
+    { "badge": 4, "headline": "SIZE DEP\nCO SAN", "subline": "NHAN MERLY GIU TRUOC", "sticker": "chat", "top": 250 },
+    { "badge": 5, "headline": "COMMENT\n\"TOI\"", "subline": "DE NHAC LICH LIVE", "sticker": "clock", "top": 250 },
+    { "badge": 6, "headline": "MUA O LIVE", "subline": "NHAN UU DAI TOT HON", "sticker": "spark", "top": 250 },
+    { "badge": 7, "headline": "19H30\nDUNG BO LO", "subline": "VAO PAGE MERLY NHA", "sticker": "heart", "top": 250 },
+    { "badge": 8, "headline": "FOLLOW PAGE", "subline": "DE CAP NHAT LICH LIVE", "sticker": "person", "top": 255 }
+  ]
+}
