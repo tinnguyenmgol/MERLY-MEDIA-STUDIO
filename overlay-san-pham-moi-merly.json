@@ -1,0 +1,17 @@
+{
+  "name": "San pham moi + loi ich Merly",
+  "prefix": "san-pham-moi-merly",
+  "brandColor": "#d54f83",
+  "accentColor": "#22c55e",
+  "footer": "SAN PHAM MOI VE - FREESHIP DON 300K, DOI HANG TAN NHA!",
+  "scenes": [
+    { "badge": 1, "headline": "SAN PHAM\nMOI VE", "subline": "MAU XINH LEN KE", "sticker": "spark", "top": 255 },
+    { "badge": 2, "headline": "FORM DEP\nDE MANG", "subline": "DI LA TON DANG", "sticker": "heart", "top": 250 },
+    { "badge": 3, "headline": "FREESHIP\nDON 300K", "subline": "CHOT DEAL TIET KIEM HON", "sticker": "megaphone", "top": 250 },
+    { "badge": 4, "headline": "DOI HANG\nTAN NHA", "subline": "MUA ONLINE YEN TAM", "sticker": "chat", "top": 250 },
+    { "badge": 5, "headline": "CHECK SIZE\nNHANH", "subline": "MERLY TU VAN KY", "sticker": "clock", "top": 250 },
+    { "badge": 6, "headline": "MAU MOI\nCO SAN", "subline": "CHON SOM CON SIZE DEP", "sticker": "spark", "top": 250 },
+    { "badge": 7, "headline": "GIA TOT\nTRONG LIVE", "subline": "11H30 VA 19H30 MOI NGAY", "sticker": "megaphone", "top": 250 },
+    { "badge": 8, "headline": "FOLLOW MERLY", "subline": "DE XEM HANG MOI MOI NGAY", "sticker": "person", "top": 255 }
+  ]
+}
